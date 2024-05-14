@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>POMODORO</title>
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Import FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="menu">
+      <div class="container">
+        <div class="card">
+          <div class="title">Atur Jadwal Istirahat & Kerja</div>
+          <form action="" class="form" id="form">
+            <div class="form-group">
+              <div class="input-group">
+                <label for="break">Istirahat</label>
+                <input type="time" id="break" />
+              </div>
+              <div class="input-group">
+                <label for="work">Kerja</label>
+                <input type="time" id="work" />
+              </div>
+            </div>
+            <div class="button">
+              <div>
+                <a href="./index.html">Kembali</a>
+              </div>
+              <div>
+                <button type="submit">Simpan</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
