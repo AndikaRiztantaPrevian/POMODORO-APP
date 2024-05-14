@@ -1,0 +1,22 @@
+{
+  "name": "pomodoro_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndikaRiztantaPrevian/POMODORO-APP.git"
+  },
+  "keywords": [
+    "Pomodoro"
+  ],
+  "author": "Andika Riztanta Previan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndikaRiztantaPrevian/POMODORO-APP/issues"
+  },
+  "homepage": "https://github.com/AndikaRiztantaPrevian/POMODORO-APP#readme"
+}
