@@ -16,7 +16,7 @@ Aplikasi ini digunakan untuk mengatur waktu kerja dan istirahat.
 npm install
 ```
 
-### Start Project
+### Launch Project
 
 ```sh
 npm start
