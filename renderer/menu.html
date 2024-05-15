@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
     />
     <meta
       http-equiv="X-Content-Security-Policy"
@@ -23,16 +23,16 @@
     <section id="menu">
       <div class="container">
         <div class="card">
-          <div class="title">Atur Jadwal Istirahat & Kerja</div>
-          <form action="" class="form" id="form">
+          <div class="title">Atur Jadwal Kerja & Istirahat</div>
+          <form class="form" id="pomodoroForm">
             <div class="form-group">
               <div class="input-group">
-                <label for="break">Istirahat</label>
-                <input type="time" id="break" />
+                <label for="work">Kerja</label>
+                <input type="number" id="work" name="work" placeholder="30 menit" required />
               </div>
               <div class="input-group">
-                <label for="work">Kerja</label>
-                <input type="time" id="work" />
+                <label for="break">Istirahat</label>
+                <input type="number" id="break" name="break" placeholder="5 menit" required />
               </div>
             </div>
             <div class="button">
@@ -40,12 +40,13 @@
                 <a href="./index.html">Kembali</a>
               </div>
               <div>
-                <button type="submit">Simpan</button>
+                <button type="submit">Mulai</button>
               </div>
             </div>
           </form>
         </div>
       </div>
     </section>
+    <script src="./js/renderer.js" defer></script>
   </body>
 </html>
