@@ -1,6 +1,6 @@
 # POMODORO_APP
 
-Aplikasi ini digunakan untuk mengatur jam kerja dan istirahat.
+Aplikasi ini digunakan untuk mengatur waktu kerja dan istirahat.
 
 ### Package & Language
 
