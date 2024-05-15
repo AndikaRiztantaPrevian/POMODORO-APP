@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain } = require("electron");
+const { app, BrowserWindow, ipcMain, Menu } = require("electron");
 const path = require("path");
 const notifier = require("node-notifier");
 const moment = require("moment");
@@ -16,7 +16,7 @@ const createWindow = () => {
 
   win.loadFile(path.join(__dirname, "./renderer/index.html"));
 
-  win.webContents.openDevTools();
+  Menu.setApplicationMenu(null);
 };
 
 app.whenReady().then(() => {
