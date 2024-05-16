@@ -21,3 +21,15 @@ npm install
 ```sh
 npm start
 ```
+
+### Index
+<img src="https://raw.githubusercontent.com/AndikaRiztantaPrevian/POMODORO-APP/main/img/index.png" width="400" alt="index.html">
+
+### Menu
+<img src="https://raw.githubusercontent.com/AndikaRiztantaPrevian/POMODORO-APP/main/img/menu.png" width="400" alt="menu.html">
+
+### Notification Work
+<img src="https://raw.githubusercontent.com/AndikaRiztantaPrevian/POMODORO-APP/main/img/notif-work.png" width="400" alt="notification-work">
+
+### Notification Break
+<img src="https://raw.githubusercontent.com/AndikaRiztantaPrevian/POMODORO-APP/main/img/notif-break.png" width="400" alt="notification-break">
